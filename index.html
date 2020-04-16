@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="normolize.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
 </head>
 
 <body>
@@ -17,55 +18,73 @@
         <h1>Dmitry Rakovets: Java Developer and DevOps</h1>
     </header>
 
-    <main class="wrapper">
-        <section class="about-me">
-            <div class="about-me-photo">
-                <img src="assets/images/photo.jpg" alt="My photo">
+    <main class="wrapper container">
+
+
+        <section class="about-me row">
+            <div class=" col-12 col-lg-4 ">
+                <div class="about-me-photo">
+                    <img src="assets/images/photo.jpg" alt="My photo">
+                </div>
             </div>
-            <div class="about-me-contact">
-                <p><b>Phone/Viber/Telegram:</b><a href="tel:375297902100"> +375297902100</a></p>
-                <p><b>Email:</b><a href="email:dmitryrakovets@gmail.com">dmitryrakovets@gmail.com</a></p>
-                <p><b>Skype:</b><a href="skype:dmitryrakovets">dmitryrakovets</a></p>
-                <p><b>Linkedin:</b><a href="www.linkedin.com/in/dmitryrakovets">www.linkedin.com/in/dmitryrakovets</a>
-                </p>
+
+            <div class=" col-12 col-lg-8  ">
+                <div class="about-me-contact">
+                    <p><b>Phone/Viber/Telegram:</b><a href="tel:375297902100"> +375297902100</a></p>
+                    <p><b>Email:</b><a href="email:dmitryrakovets@gmail.com">dmitryrakovets@gmail.com</a></p>
+                    <p><b>Skype:</b><a href="skype:dmitryrakovets">dmitryrakovets</a></p>
+                    <p><b>Linkedin:</b><a
+                            href="www.linkedin.com/in/dmitryrakovets">www.linkedin.com/in/dmitryrakovets</a>
+                    </p>
+                </div>
             </div>
         </section>
 
-        <section class="skills">
-            <div>
-                <h2>Skills</h2>
-            </div>
-            <div>
-                <p><b>Programming Languages:</b> Java, Bash, JavaScript, SQL</p>
-                <p><b>Web technologies:</b> HTML, CSS, Less</p>
-                <p><b>J2EE Technologies:</b> Servlets, JSP, JDBC, JMS</p>
-                <p><b>Java Frameworks:</b> Hibernate, Spring (Core, MVC, Security, Data, Boot)</p>
-                <p><b>AWS:</b> Lambda, API Gateway, Cognito, S3, DynamoDB</p>
-                <p><b>Java Message Service:</b> ActiveMQ</p>
-                <p><b>Application Servers:</b> Tomcat</p>
-                <p><b>Database Servers:</b> MySQL, MariaDB, PostgreSQL</p>
-                <p><b>Software project management tool:</b>Maven, Gradle</p>
-                <p><b>Logging:</b> Kibana + ElasticSearch</p>
-                <p><b>API Testing Tool:</b> Postman</p>
-                <p><b>Operating Systems:</b> Linux, Macintosh, Windows</p>
-                <p><b>CVS:</b> Git</p>
-                <p><b>Development IDEs and editor code:</b> IntellijIDEA, VSCode, Vim</p>
 
+
+        <section class="skills">
+            <div class="row">
+                <div class="col">
+                    <div>
+                        <h2>Skills</h2>
+                    </div>
+                    <div>
+                        <p><b>Programming Languages:</b> Java, Bash, JavaScript, SQL</p>
+                        <p><b>Web technologies:</b> HTML, CSS, Less</p>
+                        <p><b>J2EE Technologies:</b> Servlets, JSP, JDBC, JMS</p>
+                        <p><b>Java Frameworks:</b> Hibernate, Spring (Core, MVC, Security, Data, Boot)</p>
+                        <p><b>AWS:</b> Lambda, API Gateway, Cognito, S3, DynamoDB</p>
+                        <p><b>Java Message Service:</b> ActiveMQ</p>
+                        <p><b>Application Servers:</b> Tomcat</p>
+                        <p><b>Database Servers:</b> MySQL, MariaDB, PostgreSQL</p>
+                        <p><b>Software project management tool:</b>Maven, Gradle</p>
+                        <p><b>Logging:</b> Kibana + ElasticSearch</p>
+                        <p><b>API Testing Tool:</b> Postman</p>
+                        <p><b>Operating Systems:</b> Linux, Macintosh, Windows</p>
+                        <p><b>CVS:</b> Git</p>
+                        <p><b>Development IDEs and editor code:</b> IntellijIDEA, VSCode, Vim</p>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section class="education">
             <h2>Education</h2>
-
-            <h3>01/2017-07/2017 – Educational Center of HTP</h3>
-            <p><b>Course:</b> Technologies for developing enterprise-solutions in Java</p>
-            <p><b>Description:</b> Hibernate, Spring, Maven, Tomcat, GitHub</p>
-
-            <h3>11/2011-02/2016 – Higher Educational Establishment</h3>
-            <p><b>Specialization:</b> Accountant-economist</p>
-
-            <h3>09/2008-06/2013 – Higher Educational Establishment</h3>
-            <p><b>Specialization:</b> Teacher of Mathematics and Informatics</p>
+            <div class="row">
+                <div class="col-12 text-left">
+                    <h3>01/2017-07/2017 – Educational Center of HTP</h3>
+                    <p><b>Course:</b> Technologies for developing enterprise-solutions in Java</p>
+                    <p><b>Description:</b> Hibernate, Spring, Maven, Tomcat, GitHub</p>
+                </div>
+                <div class="col-12 text-left">
+                    <h3>11/2011-02/2016 – Higher Educational Establishment</h3>
+                    <p><b>Specialization:</b> Accountant-economist</p>
+                </div>
+                <div class="col-12 text-left">
+                    <h3>09/2008-06/2013 – Higher Educational Establishment</h3>
+                    <p><b>Specialization:</b> Teacher of Mathematics and Informatics</p>
+                </div>
+            </div>
         </section>
 
         <section class="experience">
@@ -162,6 +181,7 @@
                 <b>Military obligation status:</b> served, reserve lieutenant
             </p>
         </section>
+        </div>
     </main>
 
     <footer>
