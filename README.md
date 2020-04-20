@@ -1,3 +1,3 @@
-# rakovets.github.io
+# GeorgeLashko.github.io
 
 My personal GitHub Page
